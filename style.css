@@ -2,7 +2,6 @@ body {
     background-color: rgb(14, 14, 58);
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-family: 'Karla', sans-serif;
-
 }
 
 .text_cont {
@@ -10,7 +9,7 @@ body {
     margin: auto;
     width: 80%;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     padding: 2rem 1rem;
     border-radius: 5px;
 }
