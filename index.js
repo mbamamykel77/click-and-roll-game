@@ -127,7 +127,7 @@ function roll() {
         start();
         congratsCont.style.display = "none";
       }
-      setTimeout(continuousRoll, 2000);
+      setTimeout(continuousRoll, 700);
     } else {
       resetGame();
       congratsCont.style.display = "block";
