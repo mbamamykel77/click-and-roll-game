@@ -6,6 +6,30 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+
+#hour {
+    font-size: 2rem;
+    color: orange;
+}
+#minute {
+    font-size: 2rem;
+    color: green;
+}
+
+#second {
+    font-size: 2rem;
+    color: #5035ff;
+}
+
+.congrats{
+    color: darkorange;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    animation: roll 4s ease-in-out;
+    display: none;
+}
 .item {
     background-color: var(--title-text);
   }
@@ -78,5 +102,11 @@ body {
   }
 }
 
-
-
+.mykel {
+    margin-bottom: -2rem;
+    color: var(--dice);
+    text-align: right;
+    margin-top: 2rem;
+    color: green;
+    text-decoration: line-through;
+}

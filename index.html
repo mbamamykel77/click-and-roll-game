@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice and roll</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="text_cont">
-            <h1>Dice and roll</h1>
-            <p>Roll until all dice are the same. Click each dice to freeze it at its current value between rolls.</p>
+      <div class="congrats">
+        <div>
+          <h1>"Yay.... Congrats, You Win!!!"</h1>
+        </div>
+        <div>
+            <h3>Time: <span id="congrats_hour">00</span>:<span id="congrats_minute">00</span>:<span id="congrats_second">00</span></h3>
+        </div>
+      </div>
 
-            
+      <div class="text_cont">
+        <form name="form_main">
+          <div>
+            <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+          </div>
+        </form>
+
+        <h1>Dice and roll</h1>
+        <p>
+          Roll until all dice are the same. Click each dice to freeze it at its
+          current value between rolls.
+        </p>
+
         <div class="dice_cont">
-            <div class="item">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
-            <div class="item">4</div>
-            <div class="item">5</div>
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">5</div>
         </div>
 
         <div class="dice_cont">
-            <div class="item">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
-            <div class="item">4</div>
-            <div class="item">5</div>
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">5</div>
         </div>
 
         <div class="rollButton">
-            <button class="roll">Roll</button>
+          <button class="roll">Roll</button>
         </div>
 
         <div class="resetButton">
-            <button class="roll reset">Reset</button>
+          <button class="roll reset">Reset</button>
         </div>
-        </div>
+
+        <div class="mykel">
+            <h5>CC Mykel</h5>
+          </div>
+      </div>
     </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
